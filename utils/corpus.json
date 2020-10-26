@@ -1,0 +1,32 @@
+{
+    "name": "Corpus",
+    "locale": "en-US",
+    "data": [
+        {
+            "intent":"bot.schedule",
+            "utterances": [
+                "When is my schedule?",
+                "Did i've planned my schedule?"
+            ]
+        },
+        {
+            "intent":"bot.reschedule",
+            "utterances": [
+                "I want to reschedule",
+                "Can i change my schedule?"
+            ]
+        },
+        {
+            "intent": "None",
+            "utterances": [
+            "I need advice",
+            "I need some advice",
+            "can you give me some advice?",
+            "what should I do?"
+            ],
+            "answers": [
+            "Sorry, I don't understand"
+            ]
+        }
+    ]
+  }
